@@ -59,7 +59,7 @@ section {
 }
 
 .galri-foto img {
-    width: 200px; /* Ajiste jan ou vle: 150px, 250px elatriye */
+    width: 100px; /* Ajiste jan ou vle: 150px, 250px elatriye */
     height: auto;
     margin: 10px;
     border-radius: 5px;
