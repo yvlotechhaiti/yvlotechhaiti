@@ -59,12 +59,17 @@ section {
 }
 
 .galri-foto img {
-    width: 200px;
+    width: 200px; /* Ajiste jan ou vle: 150px, 250px elatriye */
     height: auto;
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
-
+.galri-foto img:hover {
+    transform: scale(1.2); /* Sa fè li zoume sou hover (souri oswa klik) */
+    z-index: 1000;
+}
 form {
     display: flex;
     flex-direction: column;
