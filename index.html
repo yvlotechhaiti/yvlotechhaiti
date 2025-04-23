@@ -1,78 +1,96 @@
 <!DOCTYPE html>
 <html lang="ht">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>YVLOTECH Haiti</title>
-  <link rel="stylesheet" href="style.css" />
+<head>	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BYENVINI NAN YvloTech</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Navigasyon -->
-  <nav>
-    <ul>
-      <li><a href="#antet">Akèy</a></li>
-      <li><a href="#pwodwi">Pwodwi</a></li>
-      <li><a href="#galri">Galri</a></li>
-      <li><a href="#kontak">Kontak</a></li>
-      </ul>
-  </nav>
+    <!-- Navigasyon -->
+    <nav>
+        <ul>
+            <li><a href="#akèy">Akèy</a></li>
+            <li><a href="#lis">Sèvis & Pwodwi</a></li>
+            <li><a href="#galri">Galri</a></li>
+            <li><a href="#fòmilè">Voye Mesaj</a></li>
+        </ul>
+    </nav>
 
-  <!-- Antèt -->
-  <header id="antet">
-    <h1>Byenveni nan YVLOTECH Haiti</h1>
-    <p>Nou ofri solisyon teknoloji pou ou</p>
-  </header>
+    <!-- Akèy -->
+    <header id="akèy">
+        <h1>Byenvini Nan YvloTech!</h1>
+        <p>"Nou Kontan Akeyi'w."</p>
+    </header>
 
-  <!-- Seksyon Pwodwi -->
-  <section id="pwodwi">
-    <h2>Pwodwi Nou Van'n</h2>
-    <ul>
-      <li>Òdinatè Pòtab</li>
-      <li>Telefòn Entelijan</li>
-      <li>Pwodwi Elektwonik</li>
-    </ul>
-  </section>
+    
+    <!-- Sèvis -->
+    <section id="lis" class="animasyon">
+        <h2>Sèvis Nou Bay</h2>
+        <ul>
+            <li>Devlopman & Dizay sit wèb</li>
+            <li>Konsiltasyon IT</li>
+            <li>Rezo Enfomatik</li>
+            <li>Depanaj Odinatè</li>
+            <li>Sipò teknik</li>
+            <li>Konsepsyon Grafik</li>
+            <li>Devlopman aplikasyon Mobil</li>
+            <li>Rezo Telefon Mobil</li>
+            <li>Elatriye......</li>
+        </ul>
+    </section>
 
-  <!-- Seksyon Galri -->
-  <section id="galri">
-    <h2>Galri</h2>
-    <div class="galri-foto">
-      <img src="img1.jpg" alt="Foto 1" />
-      <img src="img2.jpg" alt="Foto 2" />
-      <img src="img3.jpg" alt="Foto 3" />
-    </div>
-  </section>
+    <!-- Pwodwi -->
+    <section id="lis" class="animasyon">
+        <h2>Pwodwi Nou Ofri</h2>
+        <ul>
+            <li>LapTop + Materyèl</li>
+            <li>Djomp</li>
+            <li>Bakop</li>
+            <li>Telefon</li>
+            <li>Kovè (Poch)</li>
+            <li>Chajè</li>
+            <li>Kab</li>
+            <li>Kas bloutouf, Kas Fil</li>
+            <li>Elatriye......</li>
+        </ul>
+    </section>
+    <!-- Galri -->
+    <section id="galri" class="animasyon">
+        <h2>Galri</h2>
+        <div class="galri-foto">
+            <img src="yvt.jpg" alt="Foto 1">
+            <img src="techh.jpg" alt="Foto 2">
+            <img src="tech1.jpg" alt="Foto 3">
+        </div>
+    </section>
 
-  <!-- Seksyon Peman -->
-  <section id="peman">
-    <h2>Peman</h2>
-    <p>Ou ka fè peman atravè MonCash oswa NatCash:</p>
-    <a href="https://moncashbutton.digicelgroup.com/merchant_pay/MTM3MjE4" class="btn-moncash" target="_blank">Peye ak MonCash</a>
-    <a href="https://natcash.com/pay/50937600376" class="btn-natcash" target="_blank">Peye ak NatCash</a>
-  </section>
 
-  <!-- Seksyon Kontak -->
-  <section id="kontak">
-    <h2>Kontakte Nou</h2>
-    <form>
-      <label for="non">Non:</label>
-      <input type="text" id="non" name="non" required />
+    <!-- Fòmilè kontak -->
+    <section id="fòmilè" class="animasyon">
+        <h2>Ekri Nou Yon Mesaj</h2>
+        <form action="https://formspree.io/f/mzzrbpdw" method="POST">
+            <label for="name">Non Konplè:</label>
+            <input type="text" id="name" name="name" required>
 
-      <label for="imel">Imèl:</label>
-      <input type="email" id="imel" name="imel" required />
-<label for="mesaj">Mesaj:</label>
-      <textarea id="mesaj" name="mesaj" rows="5" required></textarea>
+            <label for="email">Imèl:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mesaj:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
 
-      <button type="submit">Voye</button>
-    </form>
-  </section>
+            <button type="submit"><i class="fas fa-paper-plane"></i> Voye</button>
+        </form>
+    </section>
 
-  <!-- Footer -->
-  <footer>
-    <marquee><p>© 2025 YVLOTECH Haiti. Tout dwa rezève.</p></marquee>
-  </footer>
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 YvloTech. Tout dwa rezève.</p>
+        <marquee><p>+509 4810 - 4848 / 4302 - 2030</p></marquee>
+    </footer>
 
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
-
